@@ -1,0 +1,53 @@
+.popular-repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  width: 100vw;
+}
+
+.heading {
+  font-family: 'Lobster';
+  font-size: 45px;
+}
+
+.filter-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 500px;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.repo-body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.failure-view-image {
+  width: 50%;
+  height: 40%;
+}
+
+.repo-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.repos-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70vh;
+  width: 80vw;
+}

@@ -1,0 +1,50 @@
+.repo-content-container {
+  border-radius: 20px;
+  background-color: #f8f8ff;
+  border: solid 1px #1e293b;
+  height: 75%;
+  width: 25%;
+  padding: 15px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar-img {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 5px;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.repo-name {
+  color: #e73959;
+  font-family: 'Consolas';
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.insights {
+  display: flex;
+  flex-direction: column;
+}
+
+.insight-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.insight-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.insight-count {
+  font-family: 'Consolas';
+  font-size: 15px;
+  margin-top: 0;
+}
